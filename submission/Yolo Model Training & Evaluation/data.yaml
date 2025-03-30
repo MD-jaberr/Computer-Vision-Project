@@ -1,0 +1,5 @@
+train: C:/Users/PC/OneDrive - Lebanese American University/inmind/ML track/final project/data/yolov5_split/train/images
+val: C:/Users/PC/OneDrive - Lebanese American University/inmind/ML track/final project/data/yolov5_split/val/images
+
+nc: 5
+names: ['tugger', 'cabinet', 'str', 'box', 'forklift']
