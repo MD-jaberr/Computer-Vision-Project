@@ -34,6 +34,7 @@ To execute this endpoint do the following:
 3. In _"model_name"_ write the name of the model you would like to use for bbox predictions
 4. click on _"Execute"_
 5. the response body will show the output holding: model name used with class_id of bbox, confidence of each bbox, coordinates of each bbox
+6. The coordinates are as follows [left, top, right, bottom]
 
 **Bounding Box Display Endpoint:**
 Its role is to show the image and the predicted bboxes drawn on it.
