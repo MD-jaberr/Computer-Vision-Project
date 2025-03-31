@@ -35,7 +35,7 @@ To execute this endpoint do the following:
 4. click on _"Execute"_
 5. the response body will show the output holding: model name used with class_id of bbox, confidence of each bbox, coordinates of each bbox
 
-**Displayed Bounding Box Endpoint:**
+**Bounding Box Display Endpoint:**
 Its role is to show the image and the predicted bboxes drawn on it.
 To execute this endpoint do the following:
 1. click on _"Try it out"_
@@ -43,4 +43,7 @@ To execute this endpoint do the following:
 3. In _"model_name"_ write the name of the model you would like to use for bbox predictions
 4. click on _"Execute"_
 5. the image inserted will be displayed and the predicted bboxes will be drawn with their class_id and confidence both specified
+
+**How to stop the API execution:**
+The API's execution can be stopped through pressing _"Ctrl + C"_ on the terminal.
 
