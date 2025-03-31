@@ -1,5 +1,14 @@
+#In case I am using VS Code those are the paths for train and val
 train: C:/Users/PC/OneDrive - Lebanese American University/inmind/ML track/final project/data/yolov5_split/train/images
 val: C:/Users/PC/OneDrive - Lebanese American University/inmind/ML track/final project/data/yolov5_split/val/images
 
 nc: 5
 names: ['tugger', 'cabinet', 'str', 'box', 'forklift']
+
+#---------------------------------------------------------------------------------------------------------------------
+#In case I am using colab those are the paths for train and val
+# train: content/yolov5_split/train/images
+# val: content/yolov5_split/val/images
+
+# nc: 5
+# names: ['tugger', 'cabinet', 'str', 'box', 'forklift']

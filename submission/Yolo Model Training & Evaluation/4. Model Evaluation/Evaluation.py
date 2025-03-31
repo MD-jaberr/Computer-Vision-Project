@@ -1,4 +1,5 @@
 import os
+from IPython.display import display, Image
 
 for root, dirs, files in os.walk("runs/val/"):
     for file in files:
