@@ -69,7 +69,7 @@ async def detect_bbox(file: UploadFile = File(...), model_name: str = Form(...))
         class_conf = class_scores[class_id]
         confidence = objectness * class_conf
 
-        if confidence > 0.5: #filter bboxes with low confidence
+        if confidence > 0.3: #filter bboxes with low confidence
             # Scale to original size
             x1 = int(x1 / 640 * orig_w)
             y1 = int(y1 / 640 * orig_h)
@@ -123,7 +123,7 @@ async def detect_bbox_image(file: UploadFile = File(...), model_name: str = Form
         class_conf = class_scores[class_id]
         confidence = objectness * class_conf
 
-        if confidence > 0.5:
+        if confidence > 0.3:
             x1 = int(x1 / 640 * orig_w)
             y1 = int(y1 / 640 * orig_h)
             x2 = int(x2 / 640 * orig_w)
