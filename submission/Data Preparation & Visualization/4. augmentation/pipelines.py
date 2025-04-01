@@ -1,4 +1,5 @@
 import albumentations as A
+import cv2
 
 #define 2 different pipelines for image augmentation
 

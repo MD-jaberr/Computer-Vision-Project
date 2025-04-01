@@ -40,3 +40,4 @@ def visualize(image, bboxes, class_names, box_color=(255, 0, 0), thickness=2):
     plt.axis('off')
     plt.imshow(img)
     plt.show()
+    

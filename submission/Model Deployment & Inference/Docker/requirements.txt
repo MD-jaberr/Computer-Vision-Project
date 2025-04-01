@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+onnxruntime
+albumentations
+opencv-python-headless
+pillow
+numpy
+scikit-learn
+torch
