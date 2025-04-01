@@ -7,3 +7,4 @@ pillow
 numpy
 scikit-learn
 torch
+inference_api
